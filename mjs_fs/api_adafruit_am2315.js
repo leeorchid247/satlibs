@@ -4,7 +4,7 @@ let Adafruit_AM2315 = {
 
   _create: ffi("void *mgos_adafruit_am2315_create(void *)"),
   _close: ffi("void mgos_adafruit_am2315_close(void *)"),
-  _begin: ffi(" boolean mgos_adafruit_am2315_begin(void *)"),
+  _begin: ffi("bool mgos_adafruit_am2315_begin(void *)"),
   _readTemperature: ffi("float mgos_adafruit_am2315_readTemperature(void *)"),
   _readHumidity: ffi("float mgos_adafruit_am2315_readHumidity(void *)"),
   _readAll: ffi(
